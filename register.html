@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register — King Fahad National Library</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="register-page">
+ 
+  <div class="page">
+ 
+    <div class="brand">
+      <img src="slogan.jpg" alt="King Fahad National Library Logo">
+      <h1>King Fahad National Library</h1>
+      <p>Member Registration</p>
+    </div>
+ 
+    <div class="card">
+      <h2>Create your account</h2>
+      <p>Please fill in your details to access the library.</p>
+ 
+      <div id="messageBox"></div>
+ 
+      <form id="registerForm">
+ 
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Ahmed Mohammed" required>
+        </div>
+ 
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+        </div>
+ 
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Riyadh" required>
+        </div>
+ 
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="05xxxxxxxx" required>
+        </div>
+ 
+        <button type="submit" class="btn-submit" id="submitBtn">Register & Enter</button>
+ 
+      </form>
+    </div>
+    <p><small>  &copy; 2026 King Fahad National Library </small></p>
+      
+    
+ 
+ <script src="script.js"></script>
+</body>
+</html>
