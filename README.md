@@ -48,7 +48,5 @@ This project analyzes the website performance of the **King Fahad National Libra
 ## Tools Used
 
 * Google Analytics 4 (GA4)
-* Looker Studio (if applicable)
-* Microsoft Word
 * Data visualization reports
 
